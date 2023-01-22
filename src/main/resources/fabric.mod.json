@@ -1,12 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "spatiiartis",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Spatii Artis",
+  "description": "Have you ever wanted to go to space? No? Screw you, you're going there anyway.",
   "authors": [
-    "Turnip Labs"
+    "Turnip Labs",
+    "Lexal"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+        "turniplabs.spatii.SpatiiArtis"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "spatii.mixins.json"
   ],
 
   "depends": {

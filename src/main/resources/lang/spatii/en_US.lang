@@ -1,6 +1,12 @@
+
 tile.spatii.moonstone.name=Moonstone
 tile.spatii.moonstone.desc=You probably shouldn't eat this...
+
 tile.spatii.moonturf.name=Moon Turf
 tile.spatii.moonturf.desc=It's from the moon!
+
 tile.spatii.cheeseore.name=Cheese Ore
-tile.spatii.cheeseore.desc=The moon isn't made of cheese, but it sure has a lot on it
+tile.spatii.cheeseore.desc=The moon isn't made of cheese, but it sure has a lot on it.
+
+item.spatii.cheese.name=Cheese
+item.spatii.cheese.desc=What kind of self respecting moon wouldn't have cheese?

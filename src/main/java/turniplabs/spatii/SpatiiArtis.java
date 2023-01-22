@@ -15,13 +15,15 @@ import turniplabs.spatii.block.BlockOreCheese;
 public class SpatiiArtis implements ModInitializer {
     public static final String MOD_ID = "spatii";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+    //////////////////////////////////////////////////////////////////////////blocks
     public static final Block moonstone = BlockHelper.createBlock(MOD_ID,new Block(9000, Material.rock), "moonstone", "moonstone.png", Block.soundStoneFootstep,1.7f, 6.0f, 0.0f);
     public static final Block moonturf = BlockHelper.createBlock(MOD_ID,new Block(9001, Material.rock), "moonturf", "moonturf.png", Block.soundPowderFootstep,1.0f, 5.0f, 0.0f);
-    public static final Block cheeseore = BlockHelper.createBlock(MOD_ID, new BlockOreCheese(9002, Material.rock), "cheeseore", "moonstonecheese.png", Block.soundStoneFootstep,1.0f, 5.0f, 0.0f);
+    public static final Block cheeseore = BlockHelper.createBlock(MOD_ID, new BlockOreCheese(9002, Material.rock), "cheeseore", "moonstonecheese.png", Block.soundStoneFootstep,1.6f, 6.0f, 0.0f);
+    ////////////////////////////////////////////////////////////////////////////items
     public static final Item cheese = ItemHelper.createItem(MOD_ID, new Item(9003), "cheese", "cheese.png");
+    //dimension
     @Override
     public void onInitialize() {
         LOGGER.info("Spatii Artis should be running now, if it's not, then huston, you have a problem");
-
     }
 }
